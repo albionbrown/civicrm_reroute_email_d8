@@ -1,0 +1,10 @@
+name: CiviCRM Reroute Email
+description: Reroute all CiviCRM emails to the specified email address.
+package: CiviCRM
+core: 8.x
+type: module
+configure: civicrm_reroute_email.config
+
+dependencies:
+  - civicrm
+

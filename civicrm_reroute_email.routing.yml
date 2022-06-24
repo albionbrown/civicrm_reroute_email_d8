@@ -1,0 +1,7 @@
+civicrm_reroute_email.config:
+  path: '/admin/config/development/civicrm_reroute_email'
+  defaults:
+    _form: '\Drupal\civicrm_reroute_email\Form\ConfigureForm'
+    _title: 'Configure CiviCRM Reroute Email'
+  requirements:
+    _permission: 'administer site configuration'
